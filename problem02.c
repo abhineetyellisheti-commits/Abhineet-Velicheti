@@ -16,7 +16,7 @@ int add(int a, int b)
 }
 
 
-void display(int result)
+void output(int result)
 {
     printf("Sum = %d\n", result);
 }
@@ -28,7 +28,7 @@ int main()
 
     input(&a, &b);
     result = add(a, b);
-    display(result);
+    output(result);
 
     return 0;
 }
